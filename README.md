@@ -41,3 +41,9 @@
 ## v1.8 移除進階設計
 依用戶要求移除進階設計模式、自由畫線／文字與圖層編輯、作品JSON匯入匯出與瀏覽器存檔功能。已移除對應DOM、事件及model.js，不只隱藏入口。保留展示場景、燈效、開關燈比較、PNG匯出、分享與詢價。舊版另備份於Project-Backups/LED-Strip-Studio-v1.7-before-removing-editor；既有瀏覽器作品鍵未刪除，但新版不再讀取或編輯。前文舊版功能說明是歷史紀錄。
 驗證：場景／亮度、分享與詢價測試通過；瀏覽器確認無進階設計入口，展示方案、關燈比較及分享摘要正常。
+
+## v1.9 生活情境
+新增衣帽間wardrobe、樓梯stairs及飯店客房hotel。衣帽間可開關門並連動燈光，區域rod/side/drawer。樓梯區域steps/rail/landing，有上樓及下樓逐階點亮模擬，再回待機微光；這是按鈕觸發的互動示範，不連接實體感應器。飯店客房區域headboard/bedbase/ceiling，可切換歡迎、閱讀、夜間模式，夜間降低環境光。
+分享新增doorOpen及stairDirection，舊連結會使用預設值；動畫時間不分享。詢價摘要支援新場景及逐階方向。進階設計仍已移除。
+載入順序：Three、building、lifestyle、interiors、showcase、app、visitors、inquiry-model、share-model、inquiry、share。
+verify-lifestyle.cjs驗證三場景、三分區、幾何、關門燈光、上下樓順序、關燈及分享詢價。既有場景、分享、詢價測試通過；本機瀏覽器已檢查模型與互動，以及客房夜間20%帶入詢價。手機實機觸控未驗證。
