@@ -2,3 +2,4 @@
 .showcase-panel{padding:20px!important;border:1px solid #54616b!important;border-radius:18px;background:#20313b}.showcase-panel small{font:10px Georgia;letter-spacing:2px;color:#dac29e}.showcase-panel h3{font-size:21px;margin:12px 0 6px}.showcase-panel p{font-size:13px;color:#b9c6cb}.showcase-panel>.gold{width:100%}.showcase-panel .row button{flex:1;font-size:12px}
 .button:has(input:disabled){opacity:.4;cursor:default}
 #effect-controls{margin-top:18px}#effect-controls label{font-size:13px;margin-top:12px}#effect-controls select{width:100%;padding:10px 12px;background:#15262e;color:#edf0eb;border:1px solid #52616b;border-radius:10px;font:inherit;margin-top:6px}#effect-controls select:focus-visible{outline:2px solid #edc68c}#effect-controls input:disabled,#effect-controls select:disabled{opacity:.4}#effect-controls .hint{margin-bottom:0}
+.scene-shortcuts{flex-wrap:wrap}.scene-shortcuts button{flex:1 1 90px;font-size:12px}
