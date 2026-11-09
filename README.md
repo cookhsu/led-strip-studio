@@ -47,3 +47,6 @@
 分享新增doorOpen及stairDirection，舊連結會使用預設值；動畫時間不分享。詢價摘要支援新場景及逐階方向。進階設計仍已移除。
 載入順序：Three、building、lifestyle、interiors、showcase、app、visitors、inquiry-model、share-model、inquiry、share。
 verify-lifestyle.cjs驗證三場景、三分區、幾何、關門燈光、上下樓順序、關燈及分享詢價。既有場景、分享、詢價測試通過；本機瀏覽器已檢查模型與互動，以及客房夜間20%帶入詢價。手機實機觸控未驗證。
+
+## v1.9.1 樓梯扶手
+依用戶要求移除扶手燈帶，改成一般金屬扶手。樓梯照明僅保留階梯與平台，舊版rail分享位置會轉為steps，避免舊連結失效。
