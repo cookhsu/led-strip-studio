@@ -10,3 +10,7 @@
 驗證：程式語法及設計資料格式、上下限、無效數值、節點及深層複製檢查通過；瀏覽器實測新增圓環及文字、三節點畫線、複製／移除、保存後重新整理恢復。手機多指、PNG和JSON實際下載／重新匯入尚未端到端驗證。
 
 原始碼位於public；Three.js MIT授權位於public/vendor/THREE-LICENSE.txt。線上網址：https://led-strip-studio-theta.vercel.app/ 。GitHub：https://github.com/cookhsu/led-strip-studio 。原始碼可用 npm run build 檢查，部署輸出目錄為 public。燈光為視覺示意，不提供工程配線或光學數值。
+
+
+## 七彩自動展示
+一鍵展示彩虹無限環及雙圓環，支援暫停／繼續、旋轉縮放與PNG圖片匯出。展示不取代或寫入原設計，退出後恢復作品及視角。已實測開啟、暫停、退出與原圖層保留。
